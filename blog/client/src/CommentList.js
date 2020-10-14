@@ -18,6 +18,5 @@ export default ({ postId }) => {
     return <li key={comment.id}>{comment.content}</li>
   })
 
-  console.log({ comments })
   return <ul>{renderedComments}</ul>
 }
