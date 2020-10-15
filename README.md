@@ -1,4 +1,4 @@
-# Learning about Kubenetes
+# Learning about Kubenetes!
 
 ## Blog App
 
