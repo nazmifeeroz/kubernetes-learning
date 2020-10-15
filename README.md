@@ -8,3 +8,4 @@
 	- 2 express app
 	- create-react-app
 - Event based services
+- Query based service
