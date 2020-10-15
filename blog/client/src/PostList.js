@@ -6,7 +6,7 @@ export default () => {
   const [posts, setPosts] = useState({})
 
   const fetchPosts = async () => {
-    const res = await fetch('http://localhost:4000/posts')
+    const res = await fetch('http://localhost:4002/posts')
     const data = await res.json()
 
     setPosts(data)
@@ -29,7 +29,7 @@ export default () => {
         <div className="card-body">
           <h3>{post.title}</h3>
           <CommentCreate postId={post.id} />
-          <CommentList postId={post.id} />
+          <CommentList comments={post.comments} />
         </div>
       </div>
     )
