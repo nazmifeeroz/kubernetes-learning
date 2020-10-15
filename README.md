@@ -9,3 +9,7 @@
 	- create-react-app
 - Event based services
 - Query based services
+
+## TIL
+
+- requires gpg signing to be the same as registered email
