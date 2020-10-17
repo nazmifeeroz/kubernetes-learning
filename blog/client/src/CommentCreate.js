@@ -6,7 +6,7 @@ export default ({ postId }) => {
   const onSubmit = async (e) => {
     e.preventDefault()
 
-    await fetch(`http://localhost:4001/posts/${postId}/comments`, {
+    await fetch(`http://posts.com/posts/${postId}/comments`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
