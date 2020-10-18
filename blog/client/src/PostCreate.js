@@ -5,7 +5,7 @@ export default () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    await fetch('http://posts.com/posts', {
+    await fetch('http://posts.com/posts/create', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
